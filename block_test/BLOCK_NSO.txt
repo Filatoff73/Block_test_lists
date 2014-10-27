@@ -1,0 +1,92 @@
+BLOCK_NSO 
+MU = false, PU = false 
+contact number = 0, res = 1, relaylist: 
+contact number = 1, res = 1, relaylist: 2814168, 2814168, 2814180, 
+contact number = 2, res = 0, relaylist:  NULL
+contact number = 3, res = 1, relaylist: 
+contact number = 4, res = 1, relaylist: 2814180, 2814180, 2814168, 
+contact number = 5, res = 0, relaylist:  NULL
+contact number = 6, res = 1, relaylist: 
+contact number = 7, res = 1, relaylist: 
+contact number = 8, res = 0, relaylist:  NULL
+contact number = 9, res = 0, relaylist:  NULL
+contact number = 10, res = 0, relaylist:  NULL
+contact number = 11, res = 0, relaylist:  NULL
+contact number = 12, res = 0, relaylist:  NULL
+contact number = 13, res = 0, relaylist:  NULL
+contact number = 14, res = 0, relaylist:  NULL
+contact number = 15, res = 0, relaylist:  NULL
+contact number = 16, res = 0, relaylist:  NULL
+contact number = 17, res = 0, relaylist:  NULL
+contact number = 18, res = 0, relaylist:  NULL
+contact number = 19, res = 1, relaylist: 2814168, 2814180, 
+contact number = 20, res = 1, relaylist: 
+
+ MU = true, PU = false 
+contact number = 0, res = 1, relaylist:  NULL
+contact number = 1, res = 0, relaylist:  NULL
+contact number = 2, res = 0, relaylist:  NULL
+contact number = 3, res = 1, relaylist: 
+contact number = 4, res = 1, relaylist: 2814180, 
+contact number = 5, res = 1, relaylist: 
+contact number = 6, res = 0, relaylist:  NULL
+contact number = 7, res = 0, relaylist:  NULL
+contact number = 8, res = 0, relaylist:  NULL
+contact number = 9, res = 0, relaylist:  NULL
+contact number = 10, res = 1, relaylist: 
+contact number = 11, res = 1, relaylist: 
+contact number = 12, res = 1, relaylist: 
+contact number = 13, res = 1, relaylist: 
+contact number = 14, res = 0, relaylist:  NULL
+contact number = 15, res = 0, relaylist:  NULL
+contact number = 16, res = 0, relaylist:  NULL
+contact number = 17, res = 1, relaylist: 
+contact number = 18, res = 0, relaylist:  NULL
+contact number = 19, res = 1, relaylist: 2814180, 
+contact number = 20, res = 1, relaylist: 
+
+ MU = false, PU = true 
+contact number = 0, res = 1, relaylist: 
+contact number = 1, res = 1, relaylist: 2814168, 
+contact number = 2, res = 1, relaylist: 
+contact number = 3, res = 1, relaylist:  NULL
+contact number = 4, res = 0, relaylist:  NULL
+contact number = 5, res = 0, relaylist:  NULL
+contact number = 6, res = 0, relaylist:  NULL
+contact number = 7, res = 0, relaylist:  NULL
+contact number = 8, res = 1, relaylist: 
+contact number = 9, res = 1, relaylist: 
+contact number = 10, res = 0, relaylist:  NULL
+contact number = 11, res = 0, relaylist:  NULL
+contact number = 12, res = 0, relaylist:  NULL
+contact number = 13, res = 0, relaylist:  NULL
+contact number = 14, res = 0, relaylist:  NULL
+contact number = 15, res = 0, relaylist:  NULL
+contact number = 16, res = 0, relaylist:  NULL
+contact number = 17, res = 0, relaylist:  NULL
+contact number = 18, res = 1, relaylist: 
+contact number = 19, res = 1, relaylist: 2814168, 
+contact number = 20, res = 1, relaylist: 
+
+ MU = true, PU = true 
+contact number = 0, res = 0, relaylist:  NULL
+contact number = 1, res = 0, relaylist:  NULL
+contact number = 2, res = 1, relaylist: 
+contact number = 3, res = 0, relaylist:  NULL
+contact number = 4, res = 0, relaylist:  NULL
+contact number = 5, res = 1, relaylist: 
+contact number = 6, res = 0, relaylist:  NULL
+contact number = 7, res = 0, relaylist:  NULL
+contact number = 8, res = 1, relaylist: 
+contact number = 9, res = 1, relaylist: 
+contact number = 10, res = 1, relaylist: 
+contact number = 11, res = 1, relaylist: 
+contact number = 12, res = 1, relaylist: 
+contact number = 13, res = 1, relaylist: 
+contact number = 14, res = 0, relaylist:  NULL
+contact number = 15, res = 0, relaylist:  NULL
+contact number = 16, res = 0, relaylist:  NULL
+contact number = 17, res = 1, relaylist: 
+contact number = 18, res = 1, relaylist: 
+contact number = 19, res = 0, relaylist:  NULL
+contact number = 20, res = 0, relaylist:  NULL

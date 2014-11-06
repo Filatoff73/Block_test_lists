@@ -3,6 +3,7 @@
 
 AbstractBlock::AbstractBlock(void)
 {
+	idBlock=-1;
 }
 
 

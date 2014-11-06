@@ -6,6 +6,19 @@
 
 using namespace std;
 
+
+AbstractBlock** arrBlocks;
+int nBlocks;
+
+
+void initNeighbours()
+{
+	nBlocks=3;
+	arrBlocks = new AbstractBlock*[nBlocks];
+	arrBlocks[0]->setIdBlock(1);
+}
+
+
 string PRINT_BLOCK_RET(int val)
 {
 	switch (val)

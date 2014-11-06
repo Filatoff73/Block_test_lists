@@ -10,8 +10,19 @@ class AbstractBlock
 public:
 	AbstractBlock(void);
 
-	//virtual bool f1_11(RelayArrList * relayList) {return false;}
-
 	~AbstractBlock(void);
+
+	int getIdBlock()
+	{
+		return idBlock;
+	}
+
+	void setIdBlock(int a)
+	{
+		 idBlock = a;
+	}
+
+protected:
+	int idBlock;
 };
 

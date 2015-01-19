@@ -10,12 +10,32 @@ using namespace std;
 AbstractBlock** arrBlocks;
 int nBlocks;
 
+AbstractBlock* findBlockToId(int id, AbstractBlock** arrBlocks, int nBlocks)
+{
+	for(int i=0;i<nBlocks;i++)
+	{
+		if(arrBlocks[i]->getIdBlock()==id)
+			return arrBlocks[i];
+	}
+
+}
 
 void initNeighbours()
 {
-	nBlocks=3;
+	nBlocks = 2;
 	arrBlocks = new AbstractBlock*[nBlocks];
-	arrBlocks[0]->setIdBlock(1);
+	arrBlocks[0] = new Block_NSO;
+	arrBlocks[0]->setIdBlock(0);
+	arrBlocks[1] = new Block_NSO;
+	arrBlocks[1]->setIdBlock(1);
+	//Make Neighbours
+	findBlockToId(0, arrBlocks, nBlocks)->getBlockContact(7).addNeighbour(& ( findBlockToId(1, arrBlocks, nBlocks)->getBlockContact(18) ));
+	findBlockToId(0, arrBlocks, nBlocks)->getBlockContact(2).addNeighbour(& ( findBlockToId(1, arrBlocks, nBlocks)->getBlockContact(16) ));
+	findBlockToId(1, arrBlocks, nBlocks)->getBlockContact(18).addNeighbour(& ( findBlockToId(0, arrBlocks, nBlocks)->getBlockContact(7) ));
+	findBlockToId(1, arrBlocks, nBlocks)->getBlockContact(16).addNeighbour(& ( findBlockToId(0, arrBlocks, nBlocks)->getBlockContact(2) ));
+
+
+	
 }
 
 
@@ -126,7 +146,7 @@ void TestBlock_NSO()
 
 int main()
 {
-
+	initNeighbours();
 	TestBlock_NSO();
 
 //	int i;

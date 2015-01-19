@@ -8,6 +8,7 @@
 //////////////////////////////////////////////////////////////////////////
 
 #include "AbstractBlock.h"
+#include "BlockContact.h"
 
 class Block_NM1 : public AbstractBlock
 {
@@ -122,6 +123,13 @@ public:
 	{
 		return OutZ.IsOn();
 	}
+
+	BlockContact& getBlockContact(int num)
+	{
+		return contacts[num];
+	}
+
+
 private:
 	Relay KN, NKN, AKN, VP, VKM, MP;
 	Relay OutKM, OutS, OutN, OutZ;
@@ -129,6 +137,9 @@ private:
 	//Кнопки
 	bool butt;
 	bool butV;
+
+	//Контакты
+	BlockContact contacts[0];
 };
 
 #endif

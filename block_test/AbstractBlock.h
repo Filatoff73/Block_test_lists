@@ -4,6 +4,7 @@
 #include "Relay.h"
 #include "RelayArrList.h"
 
+class BlockContact;
 
 class AbstractBlock
 {
@@ -21,6 +22,10 @@ public:
 	{
 		 idBlock = a;
 	}
+
+	virtual BlockContact& getBlockContact(int num) = 0;
+
+
 
 protected:
 	int idBlock;
